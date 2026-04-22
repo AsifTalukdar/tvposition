@@ -1,0 +1,112 @@
+====================================================
+  TV POSITION GUIDE — DATA & SCORING NOTES
+  65" vs 75" Comparison · Room: 146" wide, 9ft deep
+====================================================
+
+ROOM DATA
+---------
+TV Wall Width       : 146 inches (12 ft 2 in)
+Viewing Distance    : 108 inches (~9 ft)
+Room Height         : 120 inches (10 ft)
+Extra Space (sofa)  : 9 inches max
+Eye Level (seated)  : ~42–44 inches from floor
+Ideal Seating Zone  : 66 inches wide (±33" from center)
+
+
+TV SPECIFICATIONS
+-----------------
+                      65" TV          75" TV
+Diagonal            : 65 inches       75 inches
+Screen Width        : 57.3 inches     66.0 inches
+Screen Height       : 32.2 inches     37.0 inches
+Screen Area         : 1,844 sq in     2,442 sq in  (+32.5%)
+Ideal Distance      : 7.0–8.1 ft      8.0–9.4 ft
+Your Distance (9ft) : ⚠ Too far       ✓ Perfect
+TV Center Height    : ~40.6" floor    42.5" floor
+TV Bottom Height    : ~24.5" floor    24.0" floor
+
+
+VIEWING ANGLE ZONES (at 9ft / 108" distance)
+---------------------------------------------
+Formula: X range = tan(angle) × 108"
+
+Zone         Angle      65" X Range         75" X Range
+-----------  ---------  ------------------  ------------------
+Perfect      0° – 17°   0 to ±26.6"         0 to ±33.0"
+Good         17° – 30°  ±26.6" to ±46.5"    ±33.0" to ±60.0"
+OK           30° – 40°  ±46.5" to ±62.4"    ±60.0" to ±80.0"
+Limit        40°+       Beyond ±62.4"        Beyond ±80.0"
+
+
+SCORING LOGIC
+-------------
+
+1. DISTANCE MATCH (how well TV ideal range covers your 9ft)
+   Formula: Is your distance inside the TV's ideal range?
+   65" → Ideal 7.0–8.1 ft  →  9 ft is OUTSIDE  →  45/100
+   75" → Ideal 8.0–9.4 ft  →  9 ft is INSIDE   →  96/100
+
+2. SCREEN IMMERSION (Field of View)
+   Formula: FOV = 2 × arctan( screen_width / (2 × distance_inches) )
+   Target FOV for cinematic feel: ~20°
+   65" → 2 × arctan(57.3 / 216) = ~15.2°  →  58/100
+   75" → 2 × arctan(66.0 / 216) = ~17.5°  →  90/100
+
+3. EYE LEVEL MATCH
+   Formula: How close is TV center to seated eye level (42–44")?
+   65" → TV center ~40.6"  →  1.4–3.4" below eye level  →  70/100
+   75" → TV center  42.5"  →  within ideal range         →  97/100
+
+4. SEATING ZONE WIDTH
+   Formula: Zone width = tan(17°) × viewing_distance
+   Guide's ideal perfect zone = ±33" from center
+   65" → ±26.6"  →  narrower than guide standard  →  62/100
+   75" → ±33.0"  →  matches guide exactly          →  95/100
+
+5. VALUE FOR MONEY (estimated)
+   65" → Lower price  →  88/100
+   75" → Higher price →  75/100
+
+6. OVERALL (simple average of all 5 scores)
+   Formula: Overall = (Score1 + Score2 + Score3 + Score4 + Score5) / 5
+   65" → (45 + 58 + 70 + 62 + 88) / 5 = 64.6  →  65/100
+   75" → (96 + 90 + 97 + 95 + 75) / 5 = 90.6  →  91/100
+
+
+FINAL VERDICT
+-------------
+Category             65"           75"           Winner
+-------------------  ------------  ------------  --------
+Distance Match       45/100        96/100        75"
+Screen Immersion     58/100        90/100        75"
+Eye Level Match      70/100        97/100        75"
+Seating Zone Width   62/100        95/100        75"
+Value for Money      88/100        75/100        65"  ← only win
+OVERALL              65/100        91/100        75" WINS
+
+CONCLUSION: The 75" TV is the correct choice for a 9ft viewing room.
+The 65" only wins on price. Every technical metric favours the 75".
+
+
+KEY RECOMMENDATIONS
+-------------------
+✓ Keep TV center at eye level when seated (~42" from floor)
+✓ Viewing distance of ~9 ft is ideal for a 75" TV
+✓ Ideal seating area is within ±33" from center
+✓ Symmetrical seating provides the best overall experience
+✓ Side seats (up to ±60°) are still good for general viewing
+✓ Corner seats (beyond ±60°) will have noticeable angle loss
+✓ Maximum extra space behind sofa: 9 inches
+
+
+FILES IN THIS REPOSITORY
+-------------------------
+index.html    — Main visual comparison page (open in browser)
+style.css     — All styles for index.html
+notes.txt     — This file: raw data, formulas, scoring logic
+README.md     — Full documentation for GitHub
+
+====================================================
+  Generated from room layout guide (Tv_Guide.png)
+  Room: 146"W × 120"H | Viewing: 108" | TV: 75" dia.
+====================================================
